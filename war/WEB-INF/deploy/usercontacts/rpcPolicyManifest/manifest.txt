@@ -1,0 +1,4 @@
+# Module usercontacts
+# RPC service class, partial path of RPC policy file
+com.somshine.client.GreetingService, 6ECFCF4EC26E403A039AF382A2B0020A.gwt.rpc
+com.somshine.client.ContactsService, 25FFA5B60A37F670D4E07CFF48601066.gwt.rpc

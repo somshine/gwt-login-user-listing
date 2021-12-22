@@ -1,0 +1,1 @@
+$wnd.usercontacts.runAsyncCallback2('cp(155,1,eJ);_.W=function fz(){!this.a.c&&(this.a.c=new _B);pB(new qB(this.a.e,this.a.d,this.a.c),this.a.b)};function qB(a,b,c){this.d=a;this.c=b;this.a=new hC;this.b=c;mu(this.b.f,new wB(this),(pg(),pg(),og));mu(this.b.a,new yB(this),(null,og))}\ncp(113,1,{},qB);MH(Vb)(2);\n//# sourceURL=usercontacts-2.js\n')

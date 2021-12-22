@@ -1,0 +1,53 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+	<ui:style>
+	.contactsViewButtonHPanel {
+		margin: 5px 0px 0x 5px;
+	}
+	
+	.contactsViewContactsFlexTable {
+		margin: 5px 0px 5px 0px;
+	}
+	
+	.negativeChange {
+		color: red;
+	}
+	
+	.errorMessage {
+		color: red;
+	}
+	</ui:style>
+
+	<g:DecoratorPanel>
+		<g:VerticalPanel addStyleNames="table table-striped">
+			<g:Label ui:field="errorMessage" addStyleNames="alert alert-danger"></g:Label>
+			<g:HorizontalPanel
+				addStyleNames="{style.contactsViewButtonHPanel}">
+				<g:Button ui:field="addButton">Add</g:Button>
+				<g:Button ui:field="deleteButton">Delete</g:Button>
+			</g:HorizontalPanel>
+			
+			<g:HorizontalPanel>
+				<g:HTML ui:field="contactsTable"></g:HTML>
+				<g:HTMLPanel>
+					<div class="row">
+						<table class="table">
+							<thead>
+								<tr>
+									<th>Symbol.</th>
+									<th>Price </th>
+									<th>Change</th>
+								</tr>
+							</thead>
+							<tbody>
+								<g:HTML ui:field="tableData" addStyleNames="somnath"></g:HTML>
+							</tbody>
+						</table>
+					</div>
+				</g:HTMLPanel>
+			</g:HorizontalPanel>
+		</g:VerticalPanel>
+	</g:DecoratorPanel>
+</ui:UiBinder> 

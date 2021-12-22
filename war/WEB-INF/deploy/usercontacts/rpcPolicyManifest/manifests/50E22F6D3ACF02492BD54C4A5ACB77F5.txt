@@ -1,0 +1,2 @@
+serviceClass: com.somshine.client.GreetingService
+path: 6ECFCF4EC26E403A039AF382A2B0020A.gwt.rpc

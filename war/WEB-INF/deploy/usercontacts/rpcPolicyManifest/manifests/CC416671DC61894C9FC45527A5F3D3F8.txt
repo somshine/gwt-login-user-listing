@@ -1,0 +1,2 @@
+serviceClass: com.somshine.client.ContactsService
+path: 25FFA5B60A37F670D4E07CFF48601066.gwt.rpc
